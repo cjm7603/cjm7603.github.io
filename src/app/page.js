@@ -9,7 +9,7 @@ export default function Home() {
       <p1>Site in Development, Come Back Soon...</p1>
 
 
-      <script type="text/javascript" src="js/intro.js"></script>
+      <script type="text/javascript" src="js/intro.js" async/>
     </main>
   );
 }
