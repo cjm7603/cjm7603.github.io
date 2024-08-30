@@ -3,3 +3,16 @@
     display:none;
 }
 
+.link{
+    color:aquamarine;
+}
+
+.link:hover{
+    color:blueviolet;
+}
+
+.image{
+    text-align: center;
+    display:block;
+    margin: 0 auto;
+}

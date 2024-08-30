@@ -76,7 +76,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <h1 id="intro" className={styles.top}>|</h1>
+      <h1 id="intro" className={styles.top}></h1>
       <Navbar activeLink =""/>
       <div id="aboutSection" className={styles.aboutIntro}>
         <About/>
@@ -90,7 +90,9 @@ export default function Home() {
       <div className={styles.intro} id="resumeSection">
         <CVRes/>
       </div>
-
+      <div className={styles.bottom}>
+        <p1>Contact me at cmcloon@ufl.edu!</p1>
+      </div>
       <script type="text/javascript" src="js/intro.js" defer/>
     </main>
   );
