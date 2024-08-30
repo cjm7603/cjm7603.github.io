@@ -7,6 +7,9 @@
     text-align: center;
     margin: 0;
     height: 100vh;
+    text-align: center;
+    font-family: 'Times New Roman';
+    color:white;
 }
 .top {
     min-height: 75px;
@@ -15,4 +18,51 @@
     font-family: "Courier New";
     font-size: 30px;
     white-space: pre;
+}
+
+.intro{
+    opacity:0;
+    display:none;
+}
+
+.aboutIntro{
+    opacity:0;
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay:3s
+}
+
+.fadeOut{
+    animation: fadeOutAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn{
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        display:none;
+        opacity: 0;
+    }
+    100% {
+        display: block; 
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOutAnimation {
+    0% {
+        display:block;
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display:none;
+    }
 }

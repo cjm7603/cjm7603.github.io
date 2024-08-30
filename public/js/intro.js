@@ -2,7 +2,8 @@
 
 let header = document.querySelector('#intro');
 let anim = [
-    { t: "", ms: 400 },
+    { t: "", ms: 200 },
+    { t: "", ms: 200 },
     { t: "|", ms: 200 },
     { t: "", ms: 200 },
     { t: "|", ms: 200 },
