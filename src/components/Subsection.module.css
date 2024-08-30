@@ -16,3 +16,10 @@
     display:block;
     margin: 0 auto;
 }
+
+.paragraph{
+    display:block;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
