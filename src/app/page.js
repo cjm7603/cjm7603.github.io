@@ -91,7 +91,7 @@ export default function Home() {
         <CVRes/>
       </div>
       <div className={styles.bottom}>
-        <p1>Contact me at cmcloon@ufl.edu!</p1>
+        <p1>Contact me at cmcloon@ufl.edu</p1>
       </div>
       <script type="text/javascript" src="js/intro.js" defer/>
     </main>

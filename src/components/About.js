@@ -15,7 +15,7 @@ export default function About() {
         
             <p1>My research mainly pertains to Multi-Agent Reinforcement Learning (MARL), and I am currenlty working on multiple papers.</p1>
             <br/>
-            <p1>On my free time, I like to play Factorio, read, or paint. Feel free to reach out to me with any questions. :)</p1>
+            <p1>On my free time, I like to play Factorio, read, or paint. Feel free to reach out to me with any questions.</p1>
 
             <img src="./images/me.jpg" width={250} height={250} className={styles.image}/>
 
